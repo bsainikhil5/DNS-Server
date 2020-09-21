@@ -1,0 +1,12 @@
+{
+  "name": "b-sai-nikhil",
+  "version": "1.0.0",
+  "dependencies": {
+    "native-dns": "",
+    "native-dns-packet": "",
+    "readline": "",
+    "fs": "",
+    "http": "",
+    "https": ""
+  }
+}
