@@ -8,8 +8,12 @@ The server can block urls and logs the dns queries recieved in "./.data/data.raw
 
 "./.data/block.raw" contains the urls which can be blocked
 
+"192.168.0.102" is default private IP, need to change to the private IP of device on which the server is running
+
 
 ## Installation
+
+Requires Node.js and npm package installation manager
 
 For proper working DNS Cache must be cleared
 ```bash
