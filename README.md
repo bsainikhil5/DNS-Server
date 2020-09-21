@@ -10,6 +10,8 @@ The server can block urls and logs the dns queries recieved in "./.data/data.raw
 
 "192.168.0.102" is default private IP, need to change to the private IP of device on which the server is running
 
+'.raw' files in '.data' folder can be opened with any text editor to see the contents
+
 
 ## Installation
 
@@ -45,6 +47,7 @@ In the DNS Server terminal, $allow and $block will turn the URL filtering on/off
 allow
 block
 ```
+URL filtering can be used for blocking the ADS throughout the device or even for blocking websites in a work environment
 
 ## Limitations
 Everytime a host send a DNS query, the response i.e, the IP address of the URL will be valid for certain time. So everytime, the browser enters the URL, corresponding IP address query will be done only once.
