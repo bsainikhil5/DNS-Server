@@ -47,7 +47,7 @@ In the DNS Server terminal, $allow and $block will turn the URL filtering on/off
 allow
 block
 ```
-URL filtering can be used for blocking the ADS throughout the device or even for blocking websites in a work environment
+URL filtering can be used for blocking the ADs throughout the device or even for blocking websites in a work environment
 
 ## Limitations
 Everytime a host send a DNS query, the response i.e, the IP address of the URL will be valid for certain time. So everytime, the browser enters the URL, corresponding IP address query will be done only once.
